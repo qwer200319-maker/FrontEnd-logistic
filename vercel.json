@@ -1,4 +1,9 @@
 {
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "framework": "vite",
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist",
   "rewrites": [
     {
       "source": "/((?!api|_next/static|_next/image|favicon.ico|dist|manifest.json|sw.js|icon-192x192.png|icon-512x512.png).*)",
